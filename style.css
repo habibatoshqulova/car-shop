@@ -1,1 +1,56 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0F0D0E;
+}
+
+.section1 {
+  width: 100%;
+  height: 1005px;
+  background-image: url(empty.png);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0px 126px;
+}
+
+header {
+  padding-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .car-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .car-services a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #676767;
+  margin: 0px 4px 0px 60px;
+}
+
+header .car-services .cars {
+  color: #FFFFFF;
+}
+
+header .search {
+  margin-left: 40px;
+}
+/*# sourceMappingURL=style.css.map */
