@@ -10,7 +10,7 @@ body {
 }
 
 .section1 {
-  width: 100%;
+  width: 1440px;
   height: 1005px;
   background-image: url(empty.png);
   background-size: 100%;
@@ -52,5 +52,143 @@ header .car-services .cars {
 
 header .search {
   margin-left: 40px;
+}
+
+.camoro {
+  margin: 80px 144px;
+}
+
+.camoro p {
+  position: absolute;
+  width: 767.11px;
+  height: 52px;
+  left: 336.44px;
+  top: 312.94px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #C2C2C2;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left-element {
+  position: absolute;
+  top: 453px;
+}
+
+.container .middle {
+  position: absolute;
+  width: 886px;
+  height: 497.85px;
+  left: 277px;
+  top: 380.48px;
+}
+
+.container .right-element {
+  position: absolute;
+  width: 55px;
+  height: 30px;
+  left: 1245px;
+  top: 439.66px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #676767;
+}
+
+.container .right-element .design {
+  color: #FFFFFF;
+}
+
+.section1-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: 535px;
+}
+
+.section1-end b {
+  color: #FFFFFF;
+}
+
+.section1-end p {
+  color: #676767;
+}
+
+.section1-end div b {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section1-end div .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section1-end div .location img {
+  width: 23px;
+  height: 15.5;
+}
+
+.section1-end div .location p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section1-end .sec1-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 714px;
+  height: 145px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-21.07%, rgba(255, 255, 255, 0.16)), color-stop(120.5%, rgba(255, 255, 255, 0.02)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -21.07%, rgba(255, 255, 255, 0.02) 120.5%);
+  -webkit-backdrop-filter: blur(23px);
+          backdrop-filter: blur(23px);
+  padding: 0px 50px;
+  -webkit-clip-path: polygon();
+          clip-path: polygon();
+}
+
+.section1-end .sec1-box b {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.section1-end .sec1-box p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
 }
 /*# sourceMappingURL=style.css.map */
